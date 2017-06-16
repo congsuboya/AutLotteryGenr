@@ -50,11 +50,11 @@ class Chromosphere extends React.Component {
                     resizeMode={'contain'} />
                 <View style={{ alignItems: 'center', justifyContent: 'center', height: 55, width: width, flexDirection: 'row' }}>
                     <View style={{
-                        alignItems: 'center', justifyContent: 'center', height: 50, width: width - 150, borderColor: 'red', borderRadius: 10,
+                        alignItems: 'center', justifyContent: 'center', height: 50, width: width - 150, borderColor: '#ff7575', borderRadius: 10,
                         borderWidth: 1,
                         flexDirection: 'row'
                     }}>
-                        {utils.renderNumView(this.state.redNum, { color: 'red' })}
+                        {utils.renderNumView(this.state.redNum, { color: '#ff7575' })}
                     </View>
                     <View style={{
                         marginLeft: 10,
@@ -62,12 +62,12 @@ class Chromosphere extends React.Component {
                         justifyContent: 'center',
                         height: 50,
                         width: 50,
-                        borderColor: 'blue',
+                        borderColor: '#4a4aff',
                         borderRadius: 10,
                         borderWidth: 1,
                         flexDirection: 'row'
                     }}>
-                        <Text style={{ flex: 1, fontSize: 15, textAlign: 'center', color: 'blue' }}>{this.state.blueNum}</Text>
+                        <Text style={{ flex: 1, fontSize: 15, textAlign: 'center', color: '#4a4aff' }}>{this.state.blueNum}</Text>
                     </View>
                 </View>
                 <TouchableOpacity onPress={() => this.produceNum(33)}>

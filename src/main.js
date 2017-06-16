@@ -11,12 +11,12 @@ const MainScreenNavigator = TabNavigator(
         '自定义': { screen: SelfSetRule }
     }, {
         tabBarOptions: {
-            activeTintColor: '#e91e63',
+            activeTintColor: '#FFD306',
             labelStyle: {
                 fontSize: 14,
             },
             style: {
-                backgroundColor: '#55acee',
+                backgroundColor: '#81c0c0',
             },
         }
     })
